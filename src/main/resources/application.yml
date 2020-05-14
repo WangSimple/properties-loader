@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: @env@
+
+server:
+  port: @port@
+  servlet:
+    context-path: @cxt@
+
+
+
+
+
+
